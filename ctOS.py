@@ -24,7 +24,7 @@ def os_list_dir():
         Label(window_1, text=os.listdir('H:\ctOS\images\portable-network-graphic\ctOS'), bg='green', font=('Consolas', 10)).grid(row=4, column=0) # , pady=10, padx=10)
         Label(window_1, text=os.listdir('H:\ctOS\images\portable-network-graphic\WatchDogs'), bg='green', font=('Consolas', 10)).grid(row=5, column=0) # , pady=10, padx=10)
     except Exception:
-        print("This is not working")
+        print("This label is not working..")
     Button(window_1, command=window_1.destroy, bg='black', text="H:\Exit-2803\..", fg='white', font=('Consolas', 10)).grid(row=6, column=0)
 
 
