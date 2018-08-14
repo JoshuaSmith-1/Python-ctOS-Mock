@@ -15,6 +15,7 @@ ctOS.geometry("280x540")
 ctOS.title('.\ctOS\..')
 ctOS.resizable(False, False)
 ctOS.configure(bg='black')
+ctOSLog_File.write(os.getcwd())
 
 # This outputs the current working drive and the current time and day of the week at the top of the screen
 os_get_cwd = Label(ctOS, text=os.getcwd(), bg='black', fg='white', font=('Consolas', 10)).grid(row=0, column=0)
