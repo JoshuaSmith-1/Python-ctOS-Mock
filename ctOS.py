@@ -68,7 +68,7 @@ def os_stat():
             Label(window_2, text=text_output_1, bg='white', font=('Consolas', 10)).grid(row=3, column=1, pady=10, padx=10) # This outputs the data to the screen
             Label(window_2, text=text_output_2, bg='white', font=('Consolas', 10)).grid(row=4, column=1, pady=10, padx=10) # "
             Label(window_2, text=text_output_3, bg='white', font=('Consolas', 10)).grid(row=5, column=1, pady=10, padx=10) # "
-            Label(window_2, text=text_output_4, bg='white', font=('Consolas', 10)).grid(row=6, column=1, pady=10, padx=10) e "
+            Label(window_2, text=text_output_4, bg='white', font=('Consolas', 10)).grid(row=6, column=1, pady=10, padx=10) # "
         except FileNotFoundError: # This makes sure that you can continue using the program when you create a mistake
             print("Sorry this file is not found")
             ctOS_Entry.delete(0, END)
