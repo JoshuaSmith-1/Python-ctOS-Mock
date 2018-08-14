@@ -82,9 +82,11 @@ def os_stat():
 # This outputs the Blume logo on the main screen
 ctOS_logo = PhotoImage(file='H:\ctOS\images\ctOS-logo.png')
 ctOS_logo_L = Label(ctOS, image=ctOS_logo, width='275', highlightbackground='black', highlightcolor='black', highlightthickness=1).grid(row=7, column=0, columnspan=1)
+
 # Main Screen Buttons
 list_dir = Button(ctOS, command=os_list_dir, bg='black', text="H:\List-Dir\..", fg='white', font=('Consolas', 10), highlightbackground='black', highlightcolor='black', highlightthickness=1).grid(row=3, column=0, pady=10, padx=10)
 os_stat = Button(ctOS, command=os_stat, bg='black', text="H:\os-Stat\...", fg='white', font=('Consolas', 10), highlightbackground='black', highlightcolor='black', highlightthickness=1).grid(row=4, column=0, pady=10, padx=10)
+
 # This button closes the program down once finished
 exit_2803 = Button(ctOS, command=ctOS.destroy, bg='black', text="H:\Exit-2803\...", fg='white', font=('Consolas', 10), highlightbackground='black', highlightcolor='black', highlightthickness=1).grid(row=8, column=0, pady=10, padx=10)
 
